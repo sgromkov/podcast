@@ -1,0 +1,67 @@
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+._*
+
+# Editors
+*~
+*.swp
+*.tmproj
+*.tmproject
+*.sublime-*
+.idea/
+.project/
+.settings/
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+/*.log
+/*.sql
+/.htaccess
+/*.htaccess
+/.htaccess*
+/web.config
+/*web.config
+
+# Dependency directories
+bower_components/
+node_modules/
+/assets/bower_components
+/assets/node_modules
+/assets/npm-debug.log
+
+# исключаем из репозитория текстовые файлы, но оставляем robots.txt
+/*.txt
+# !/robots.txt
+/sitemap*.xml
+/*.dt
+/*.tar.gz
+/*.gz
+/*.tar
+/*.bak
+/*.old
+/*~
+*/_*
+/_*
+/composer.*
+
+# исключаем ВСЮ папку bitrix, но ниже настроим включение нужных папок
+# или используйте папку /local, чтобы полностью исключить папку bitrix
+/bitrix/*
+# включаем папку components, но исключаем components/bitrix
+!/bitrix/components
+/bitrix/components/bitrix/
+# включаем папку php_interface и исключаем файл dbconn.php
+!/bitrix/php_interface/
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/*.bak
+# включаем папку шаблонов
+!/bitrix/templates/
+/bitrix/templates/.default/
+# исключаем служебные и ненужные папки проекта
+/upload

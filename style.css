@@ -1,0 +1,142 @@
+h2 {
+	margin-bottom: 5px;
+}
+
+.button {
+    margin: 0 0 10px;
+    font-size: 13px;
+}
+
+.b {
+    margin-bottom: 40px;
+    width: 1280px;
+    height: 669px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: #ffe85d;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    border: 10px solid #ffca00;
+    box-sizing: border-box;
+}
+
+.b-image {
+    flex-shrink: 0;
+    height: 100%;
+    order: 2;
+}
+
+.b-info {
+    padding: 40px 40px;
+    order: 1;
+    border-right: 10px solid #ffca00;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.b-title {
+    font-size: 140px;
+    line-height: 1;
+    font-weight: 100;
+}
+
+.b-subinfo {
+
+}
+
+.b-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #7b7b7b;
+}
+
+.b_facebook {}
+
+.b_vkontakte {}
+
+.b_instagram {}
+
+.b_youtube {}
+
+.b_twitter {}
+
+.b_facebook {
+    width: 1200px;
+    height: 630px;
+}
+
+.b_vkontakte {
+    width: 537px;
+    height: 240px;
+    border-width: 5px;
+}
+
+.b_vkontakte .b-title {
+    font-size: 49px;
+}
+
+.b_instagram {
+    width: 1080px;
+    height: 1080px;
+}
+
+.b_instagram .b-info {
+    border-right: none;
+}
+
+.b_instagram .b-title {
+    font-size: 250px;
+    line-height: .9;
+}
+
+.b_vkontakte_square {
+    width: 1400px;
+    height: 1400px;
+}
+
+.b_vkontakte_square .b-info {
+    border-right: none;
+}
+
+.b_vkontakte_square .b-title {
+    font-size: 330px;
+    line-height: .9;
+}
+
+.b_vkontakte .b-info {
+    padding: 20px;
+    border-width: 5px;
+}
+
+.b_twitter {
+    width: 1024px;
+    height: 519px;
+}
+
+.b_youtube {
+    width: 1280px;
+    height: 720px;
+}
+
+.b_twitter .b-title {
+    font-size: 100px;
+}
+
+
+
+.b_facebook .b-desc         {font-size: 40px;}
+.b_vkontakte .b-desc        {font-size: 17px;}
+.b_vkontakte_square .b-desc {font-size: 90px;}
+.b_instagram .b-desc        {font-size: 68px;}
+.b_youtube .b-desc          {font-size: 40px;}
+.b_twitter .b-desc          {font-size: 32px;}
+
+.b-subtitle                     {font-size: 30px;}
+.b_facebook .b-subtitle         {font-size: 24px;}
+.b_vkontakte .b-subtitle        {font-size: 12px; letter-spacing: 1px;}
+.b_vkontakte_square .b-subtitle {font-size: 64px;}
+.b_instagram .b-subtitle        {font-size: 45px;}
+.b_twitter .b-subtitle          {font-size: 20px;}
